@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-10">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
@@ -59,7 +59,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/projects">
+          {/* <Link href="/projects">
             <a
               className={`text-base  ${
                 router.asPath === "/projects"
@@ -84,7 +84,7 @@ export default function Navbar() {
                 </svg>
               )}
             </a>
-          </Link>
+          </Link>  */}
           <Link href="/experience">
             <a
               className={`text-base  ${
